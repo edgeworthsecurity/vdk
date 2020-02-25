@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/edgewothsecurty/vdk/av"
+	"github.com/edgeworthsecurity/vdk/av"
 )
 
 type Session struct {

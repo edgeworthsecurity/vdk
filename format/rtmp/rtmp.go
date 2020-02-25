@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/av/avutil"
-	"github.com/edgewothsecurty/vdk/format/flv"
-	"github.com/edgewothsecurty/vdk/format/flv/flvio"
-	"github.com/edgewothsecurty/vdk/utils/bits/pio"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/av/avutil"
+	"github.com/edgeworthsecurity/vdk/format/flv"
+	"github.com/edgeworthsecurity/vdk/format/flv/flvio"
+	"github.com/edgeworthsecurity/vdk/utils/bits/pio"
 )
 
 var Debug bool

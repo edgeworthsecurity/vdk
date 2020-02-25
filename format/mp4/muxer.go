@@ -6,11 +6,11 @@ import (
 	"io"
 	"time"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/codec/aacparser"
-	"github.com/edgewothsecurty/vdk/codec/h264parser"
-	"github.com/edgewothsecurty/vdk/format/mp4/mp4io"
-	"github.com/edgewothsecurty/vdk/utils/bits/pio"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/codec/aacparser"
+	"github.com/edgeworthsecurity/vdk/codec/h264parser"
+	"github.com/edgeworthsecurity/vdk/format/mp4/mp4io"
+	"github.com/edgeworthsecurity/vdk/utils/bits/pio"
 )
 
 type Muxer struct {

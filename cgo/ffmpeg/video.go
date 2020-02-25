@@ -15,8 +15,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/codec/h264parser"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/codec/h264parser"
 )
 
 type VideoDecoder struct {

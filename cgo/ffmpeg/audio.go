@@ -17,9 +17,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/av/avutil"
-	"github.com/edgewothsecurty/vdk/codec/aacparser"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/av/avutil"
+	"github.com/edgeworthsecurity/vdk/codec/aacparser"
 )
 
 const debug = false

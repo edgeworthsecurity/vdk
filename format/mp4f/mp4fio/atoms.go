@@ -1,8 +1,8 @@
 package mp4fio
 
 import (
-	"github.com/edgewothsecurty/vdk/format/mp4/mp4io"
-	"github.com/edgewothsecurty/vdk/utils/bits/pio"
+	"github.com/edgeworthsecurity/vdk/format/mp4/mp4io"
+	"github.com/edgeworthsecurity/vdk/utils/bits/pio"
 )
 
 func (self MovieFrag) Tag() mp4io.Tag {

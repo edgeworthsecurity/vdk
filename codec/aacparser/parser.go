@@ -6,8 +6,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/utils/bits"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/utils/bits"
 )
 
 // copied from libavcodec/mpeg4audio.h

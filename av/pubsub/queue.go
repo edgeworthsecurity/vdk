@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/av/pktque"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/av/pktque"
 )
 
 //        time

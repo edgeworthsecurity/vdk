@@ -1,7 +1,7 @@
 package pktque
 
 import (
-	"github.com/edgewothsecurty/vdk/av"
+	"github.com/edgeworthsecurity/vdk/av"
 )
 
 type Buf struct {

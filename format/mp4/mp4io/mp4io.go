@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/edgewothsecurty/vdk/utils/bits/pio"
+	"github.com/edgeworthsecurity/vdk/utils/bits/pio"
 )
 
 type ParseError struct {

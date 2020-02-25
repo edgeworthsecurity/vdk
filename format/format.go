@@ -1,13 +1,13 @@
 package format
 
 import (
-	"github.com/edgewothsecurty/vdk/av/avutil"
-	"github.com/edgewothsecurty/vdk/format/aac"
-	"github.com/edgewothsecurty/vdk/format/flv"
-	"github.com/edgewothsecurty/vdk/format/mp4"
-	"github.com/edgewothsecurty/vdk/format/rtmp"
-	"github.com/edgewothsecurty/vdk/format/rtsp"
-	"github.com/edgewothsecurty/vdk/format/ts"
+	"github.com/edgeworthsecurity/vdk/av/avutil"
+	"github.com/edgeworthsecurity/vdk/format/aac"
+	"github.com/edgeworthsecurity/vdk/format/flv"
+	"github.com/edgeworthsecurity/vdk/format/mp4"
+	"github.com/edgeworthsecurity/vdk/format/rtmp"
+	"github.com/edgeworthsecurity/vdk/format/rtsp"
+	"github.com/edgeworthsecurity/vdk/format/ts"
 )
 
 func RegisterAll() {

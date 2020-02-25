@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/av/avutil"
-	"github.com/edgewothsecurty/vdk/codec"
-	"github.com/edgewothsecurty/vdk/codec/aacparser"
-	"github.com/edgewothsecurty/vdk/codec/fake"
-	"github.com/edgewothsecurty/vdk/codec/h264parser"
-	"github.com/edgewothsecurty/vdk/format/flv/flvio"
-	"github.com/edgewothsecurty/vdk/utils/bits/pio"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/av/avutil"
+	"github.com/edgeworthsecurity/vdk/codec"
+	"github.com/edgeworthsecurity/vdk/codec/aacparser"
+	"github.com/edgeworthsecurity/vdk/codec/fake"
+	"github.com/edgeworthsecurity/vdk/codec/h264parser"
+	"github.com/edgeworthsecurity/vdk/format/flv/flvio"
+	"github.com/edgeworthsecurity/vdk/utils/bits/pio"
 )
 
 var MaxProbePacketCount = 20

@@ -3,8 +3,8 @@ package rtsp
 import (
 	"time"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/format/rtsp/sdp"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/format/rtsp/sdp"
 )
 
 type Stream struct {

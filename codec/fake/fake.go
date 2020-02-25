@@ -1,7 +1,7 @@
 package fake
 
 import (
-	"github.com/edgewothsecurty/vdk/av"
+	"github.com/edgeworthsecurity/vdk/av"
 )
 
 type CodecData struct {

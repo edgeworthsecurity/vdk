@@ -4,7 +4,7 @@ package pktque
 import (
 	"time"
 
-	"github.com/edgewothsecurty/vdk/av"
+	"github.com/edgeworthsecurity/vdk/av"
 )
 
 type Filter interface {

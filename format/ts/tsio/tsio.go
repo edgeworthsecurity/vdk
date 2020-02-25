@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/edgewothsecurty/vdk/utils/bits/pio"
+	"github.com/edgeworthsecurity/vdk/utils/bits/pio"
 )
 
 const (

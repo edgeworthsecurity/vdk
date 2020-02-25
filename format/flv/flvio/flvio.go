@@ -5,8 +5,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/utils/bits/pio"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/utils/bits/pio"
 )
 
 func TsToTime(ts int32) time.Duration {

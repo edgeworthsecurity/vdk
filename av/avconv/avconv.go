@@ -5,10 +5,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/av/avutil"
-	"github.com/edgewothsecurty/vdk/av/pktque"
-	"github.com/edgewothsecurty/vdk/av/transcode"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/av/avutil"
+	"github.com/edgeworthsecurity/vdk/av/pktque"
+	"github.com/edgeworthsecurity/vdk/av/transcode"
 )
 
 var Debug bool

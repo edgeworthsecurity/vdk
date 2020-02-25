@@ -3,8 +3,8 @@ package mp4
 import (
 	"io"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/av/avutil"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/av/avutil"
 )
 
 var CodecTypes = []av.CodecType{av.H264, av.AAC}

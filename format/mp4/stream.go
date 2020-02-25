@@ -3,8 +3,8 @@ package mp4
 import (
 	"time"
 
-	"github.com/edgewothsecurty/vdk/av"
-	"github.com/edgewothsecurty/vdk/format/mp4/mp4io"
+	"github.com/edgeworthsecurity/vdk/av"
+	"github.com/edgeworthsecurity/vdk/format/mp4/mp4io"
 )
 
 type Stream struct {
