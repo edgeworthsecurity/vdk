@@ -1,4 +1,4 @@
-edgewothsecurtypackage mp4fio
+package mp4fio
 
 import (
 	"github.com/edgeworthsecurity/vdk/format/mp4/mp4io"
