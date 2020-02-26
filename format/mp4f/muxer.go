@@ -244,8 +244,7 @@ func (element *Muxer) GetInit(streams []av.CodecData) (string, []byte) {
 		moov.Tracks = append(moov.Tracks, stream.trackAtom)
 		meta += stream.codecString + ","
 	}
-	
-	meta = meta[:len(meta)]
+	meta = meta[:len(meta)-1:cap(meta)]
 	ftypeData := []byte{0x00, 0x00, 0x00, 0x18, 0x66, 0x74, 0x79, 0x70, 0x69, 0x73, 0x6f, 0x36, 0x00, 0x00, 0x00, 0x01, 0x69, 0x73, 0x6f, 0x36, 0x64, 0x61, 0x73, 0x68}
 	file := make([]byte, moov.Len()+len(ftypeData))
 	copy(file, ftypeData)
