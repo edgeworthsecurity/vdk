@@ -192,6 +192,7 @@ func (self *Client) SendRtpKeepalive() (err error) {
 			self.rtpKeepaliveTimer = time.Now()
 		} else if time.Now().Sub(self.rtpKeepaliveTimer) > self.RtpKeepAliveTimeout {
 			self.rtpKeepaliveTimer = time.Now()
+			fmt.Println("[RTP] - ", self.DebugRtsp)
 			if self.DebugRtsp {
 				fmt.Println("rtp: keep alive")
 			}
