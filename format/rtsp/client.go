@@ -187,7 +187,6 @@ func (self *Client) Streams() (streams []av.CodecData, err error) {
 }
 
 func (self *Client) SendRtpKeepalive() (err error) {
-	fmt.Println("SendRtpKeepalive")
 	if self.RtpKeepAliveTimeout > 0 {
 		if self.rtpKeepaliveTimer.IsZero() {
 			self.rtpKeepaliveTimer = time.Now()
