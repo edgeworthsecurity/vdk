@@ -1203,7 +1203,6 @@ func (self *Client) readPacket() (pkt av.Packet, err error) {
 
 	for {
 		var res Response
-		fmt.Println("[res] - ", res)
 		for {
 			if res, err = self.poll(); err != nil {
 				return
