@@ -214,7 +214,7 @@ func (self *Client) WriteRequest(req Request) (err error) {
 	buf := &bytes.Buffer{}
 
 	fmt.Println("[REQ] - ", req.Method, req.Uri)
-	//fmt.Fprintf(buf, "%s %s RTSP/1.0\r\n", req.Method, req.Uri)
+	fmt.Fprintf(buf, "%s %s RTSP/1.0\r\n", req.Method, req.Uri)
 	fmt.Fprintf(buf, "CSeq: %d\r\n", self.cseq)
 
 	if self.authHeaders != nil {
