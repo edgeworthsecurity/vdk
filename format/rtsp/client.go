@@ -1197,6 +1197,7 @@ func (self *Client) handleBlock(block []byte) (pkt av.Packet, ok bool, err error
 }
 
 func (self *Client) readPacket() (pkt av.Packet, err error) {
+	fmt.Println("[readPacket] - ", err)
 	if err = self.SendRtpKeepalive(); err != nil {
 		return
 	}
