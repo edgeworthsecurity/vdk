@@ -236,20 +236,21 @@ func (element *Muxer) GetInit(streams []av.CodecData) (string, []byte) {
 		},
 		Unknowns: []mp4io.Atom{element.buildMvex()},
 	}
-	var *meta string
+	var meta string
 	for _, stream := range element.streams {
 		if err := stream.fillTrackAtom(); err != nil {
-			return *meta, []byte{}
+			return meta, []byte{}
 		}
 		moov.Tracks = append(moov.Tracks, stream.trackAtom)
-		*meta += stream.codecString + ","
+		meta += stream.codecString + ","
 	}
-	*meta = *meta[:len(*meta)-1]
+	meta = meta[:len(meta)-1]
+	fmt.Println("META: ", meta)
 	ftypeData := []byte{0x00, 0x00, 0x00, 0x18, 0x66, 0x74, 0x79, 0x70, 0x69, 0x73, 0x6f, 0x36, 0x00, 0x00, 0x00, 0x01, 0x69, 0x73, 0x6f, 0x36, 0x64, 0x61, 0x73, 0x68}
 	file := make([]byte, moov.Len()+len(ftypeData))
 	copy(file, ftypeData)
 	moov.Marshal(file[len(ftypeData):])
-	return *meta, file
+	return meta, file
 }
 
 func (element *Muxer) WritePacket(pkt av.Packet, GOP bool) (bool, []byte, error) {
