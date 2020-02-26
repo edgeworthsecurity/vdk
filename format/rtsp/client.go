@@ -1197,13 +1197,13 @@ func (self *Client) handleBlock(block []byte) (pkt av.Packet, ok bool, err error
 }
 
 func (self *Client) readPacket() (pkt av.Packet, err error) {
-	fmt.Println("[readPacket] - ", err)
 	if err = self.SendRtpKeepalive(); err != nil {
 		return
 	}
 
 	for {
 		var res Response
+		fmt.Println("[res] - ", res)
 		for {
 			if res, err = self.poll(); err != nil {
 				return
