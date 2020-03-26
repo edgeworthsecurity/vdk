@@ -3,6 +3,7 @@ package mp4f
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"os"
 	"time"
 
@@ -245,7 +246,7 @@ func (element *Muxer) GetInit(streams []av.CodecData) (string, []byte) {
 		meta += stream.codecString + ","
 	}
 	meta = meta[:len(meta)-1]
-	fmt.Println("META: ", meta)
+	log.Println("META: ", meta)
 	ftypeData := []byte{0x00, 0x00, 0x00, 0x18, 0x66, 0x74, 0x79, 0x70, 0x69, 0x73, 0x6f, 0x36, 0x00, 0x00, 0x00, 0x01, 0x69, 0x73, 0x6f, 0x36, 0x64, 0x61, 0x73, 0x68}
 	file := make([]byte, moov.Len()+len(ftypeData))
 	copy(file, ftypeData)
